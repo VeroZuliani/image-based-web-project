@@ -18,21 +18,19 @@ body{
     height: 464px;
     border-radius: 10px;
     text-align: center;
-    padding: 56px;
-    margin:15px 0 153px 0;
+    padding: 58px 78px 0 65px;
+    margin: 20px 0 153px 0;
 }
 
 .contenedora{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* background-color: #bab6df; */
     flex-wrap: wrap;
     text-align: left;
 }
 
 .item{
-    /* border: 5px solid red; */
     width: 251px;
     height: 102px;
     margin-bottom: 41px;
@@ -62,13 +60,18 @@ p{
     margin-bottom: 54px;
 }
 
+.item img{
+    width: 30px;
+    height: 30px;
+}
+
 .item h2{
     color: #0d1c54; 
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 16px;
-    margin-bottom: 7px;
+    margin: 11px 0 7px 0;
 }
 
 .item p{
