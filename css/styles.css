@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ced6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilos de Servicios*/
+.services{
+    background-color: #ffffff;
+    width: 871px;
+    height: 464px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 56px;
+    margin:15px 0 153px 0;
+}
+
+.contenedora{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #bab6df;
+}
+
+.item{
+    border: 5px solid red;
+    width: 212px;
+    height: 100px;
+}
+
+h3{
+    color: #3d64e0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+
+h1{
+    color: #0e2058; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    margin:20px 0 15px 0;
+}
+
+p{
+    color: #696969;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin-bottom: 54px;
+}
+
+
+
+/*Estilos de Formulario*/
