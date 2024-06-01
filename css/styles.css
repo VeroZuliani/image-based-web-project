@@ -85,3 +85,112 @@ p{
 
 
 /*Estilos de Formulario*/
+.formulario{
+    background-color: #ced6f0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.login{
+    background-color: #ffffff;
+    width: 486px;
+    height: 573px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px 0 10px 0; 
+}
+
+.login img{
+    width: 40px;
+    height: 40px;
+    margin-left: 131px;
+}
+
+.login h1{
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.login h2{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0 47px;
+}
+
+.login p{
+    color: #696969;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 0 47px;
+    margin-top: 11px;
+}
+
+hr{
+    width: 389px;
+    margin: 32px 0 33px 47px;
+    opacity: 0.4;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 30px 47px;
+}
+
+input{
+    width: 389px;
+    height: 44px;
+    margin: 18px 0 18px 0;
+    border-radius: 5px; 
+    border-style: solid;
+    opacity: 0.4;
+}
+
+label{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+button{
+    width: 389px;
+    height: 44px; 
+    text-transform: uppercase;
+    background-color: #367bf5;
+    color: #f3f7fe;
+    border-color: #367bf5;  
+    border-radius: 1px; 
+    margin-top: 20px;
+    transition: background-color 1s, color 1s;
+}
+
+button:hover{
+    background-color: #f3f7fe;
+    color: #367bf5;
+}
+
+form p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+form b{
+    color: #000000;
+}    
+
