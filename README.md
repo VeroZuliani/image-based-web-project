@@ -3,5 +3,5 @@ Replicar diseño de una Agencia de Viajes:
 * Servicios que ofrece: https://dribbble.com/shots/21256487-What-we-offer-section-design
 
 Lenguajes utilizados:
-* HTML
+* HTML5
 * CSS
