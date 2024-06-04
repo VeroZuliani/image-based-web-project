@@ -129,6 +129,7 @@ p{
 .login p{
     color: #696969;
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 12px;
     text-align: justify;
     padding: 0 47px;
@@ -137,14 +138,13 @@ p{
 
 hr{
     width: 389px;
-    margin: 32px 0 33px 47px;
+    margin: 0 0 33px 47px; 
     opacity: 0.4;
 } 
 
 form{
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    padding: 0 0 30px 47px;
 }
 
 input{
@@ -154,14 +154,16 @@ input{
     border-radius: 5px; 
     border-style: solid;
     opacity: 0.4;
+    margin-left: 47px;
 }
 
 label{
     text-align: left;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 16px;
+    margin-left: 47px;
 }
 
 
@@ -172,9 +174,10 @@ button{
     background-color: #367bf5;
     color: #f3f7fe;
     border-color: #367bf5;  
-    border-radius: 1px; 
-    margin-top: 20px; 
+    border-radius: 5px; 
     transition: background-color 1s, color 1s;
+    cursor: pointer;
+    margin: 0 0 12px 47px;
 }
 
 button:hover{
@@ -184,11 +187,9 @@ button:hover{
 
 form p{
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 12px;
-    text-align: center;
-    margin-bottom: 42px;
 }
 
 form b{
